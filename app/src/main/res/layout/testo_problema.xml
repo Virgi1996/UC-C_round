@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F43636"
+    android:padding="@dimen/box_inset_layout_padding"
+    tools:context=".MainActivity"
+    tools:deviceIds="wear"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_marginBottom="20dp"
+    android:layout_marginTop="20dp">
+
+
+
+    <EditText
+        android:id="@+id/testo_messaggio"
+        android:layout_width="145dp"
+        android:layout_height="100dp"
+        android:hint="Inserisci il testo..."
+        android:textColorHint="@color/white"
+        android:padding="6dp"
+        android:textSize="15dp"
+        android:gravity="top"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bg_round"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/conferma"
+        android:layout_marginBottom="20dp"
+        android:layout_width="80dp"
+        android:layout_height="25dp"
+        android:text="Conferma"
+        android:textColor="@color/white"
+        android:textSize="12dp"
+        android:background="@drawable/round_transparent_btn"/>
+
+   <!-- <Button
+        android:id="@+id/conferma"
+        android:layout_width="90dp"
+        android:layout_height="25dp"
+        android:text="CONFERMA"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/round_button"/>-->
+
+
+</LinearLayout>
+

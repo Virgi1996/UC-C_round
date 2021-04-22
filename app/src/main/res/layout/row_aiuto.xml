@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheckedTextView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:id="@+id/txt_lan"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/rowaiuto"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:textColor="@color/black"
+        android:text="Row"
+        android:textSize="15dp"
+        android:layout_marginLeft="6dp"/>
+
+</CheckedTextView>

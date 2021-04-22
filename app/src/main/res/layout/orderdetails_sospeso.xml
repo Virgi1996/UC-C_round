@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2C303B"
+    tools:context=".OrderDetails"
+    android:orientation="vertical"
+    android:padding="25dp"
+    android:paddingTop="8dp"
+    android:paddingBottom="6dp"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+
+    <DigitalClock
+        android:id="@+id/clock"
+        android:layout_width="60dp"
+        android:layout_height="16dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/roboto_medium"
+        android:textSize="14dp"
+        android:layout_marginLeft="100dp"
+        />
+
+    <TextView
+        android:id="@+id/kit_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="50dp"
+        android:text="KIT 42100"
+        android:textSize="16dp"
+        android:fontFamily="@font/roboto_medium"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SOSPESO"
+        android:textColor="#E8BE0C"
+        android:textSize="10dp"
+        android:layout_marginRight="55dp"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="3dp">
+
+        <ProgressBar
+            android:id="@+id/pb"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="110dp"
+            android:layout_height="13dp"
+            android:max="35"
+            android:progress="20"
+            android:progressTint="#E8BE0C" />
+
+        <ProgressBar
+            android:id="@+id/pb_trasbordo"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="40dp"
+            android:layout_height="13dp"
+            android:layout_marginHorizontal="5dp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/trasbordo"
+        android:layout_width="147dp"
+        android:layout_height="42dp"
+        android:background="@drawable/button_blue"
+        android:layout_marginTop="3dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/roboto_medium"
+        android:layout_gravity="center"
+        android:textSize="14dp"
+        android:layout_marginVertical="10dp"
+        android:text="Conferma fine trasbordo"
+        android:visibility="invisible"        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="2dp"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/kit"
+            android:layout_width="56dp"
+            android:layout_height="25dp"
+            android:textColor="#D9D9D9"
+            android:textSize="10dp"
+            android:fontFamily="@font/roboto_medium"
+            android:layout_marginHorizontal="5dp"
+            android:background="@drawable/rectangle_btn_grey"
+            android:text="Kit turno"/>
+        <Button
+            android:id="@+id/notifiche"
+            android:layout_width="56dp"
+            android:fontFamily="@font/roboto_medium"
+            android:layout_height="25dp"
+            android:textColor="#D9D9D9"
+            android:textSize="10dp"
+            android:layout_marginHorizontal="5dp"
+            android:background="@drawable/rectangle_btn_grey"
+            android:text="Richieste"/>
+
+    </LinearLayout>
+
+    <!--<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="4dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/cerchio_grigio"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/cerchio_bianco"/>
+
+    </LinearLayout>-->
+
+
+
+</LinearLayout>

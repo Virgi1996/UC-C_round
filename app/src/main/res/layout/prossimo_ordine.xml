@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="25dp"
+    android:background="@drawable/grey1"
+    android:paddingTop="20dp"
+    tools:deviceIds="wear"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:gravity="center"
+        android:text="Procedere al prossimo ordine"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/ok_nxt_order"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="OK"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:textSize="12dp"
+        android:background="@drawable/rectangle_btn_grey"/>
+
+
+
+</LinearLayout>

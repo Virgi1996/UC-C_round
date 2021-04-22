@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#2C303B"
+    tools:context=".FineOper"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:paddingTop="25dp"
+    android:paddingBottom="25dp"
+    android:layout_gravity="center">
+
+    <TextView
+        android:layout_width="114dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="Confermi?"
+        android:textSize="16dp"
+        android:fontFamily="@font/roboto_medium"
+        android:textColor="@color/white" />
+
+
+    <Button
+        android:id="@+id/ok"
+        android:layout_width="122dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/button_blue"
+        android:layout_marginHorizontal="5dp"
+        android:layout_gravity="center"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        android:text="OK"/>
+
+    <Button
+        android:id="@+id/annulla"
+        android:layout_width="122dp"
+        android:layout_height="26dp"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/button_blue"
+        android:text="Annulla"
+        android:textAllCaps="false"
+        android:textSize="14dp"
+        android:textStyle="bold" />
+
+
+
+</LinearLayout>

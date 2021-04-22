@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2C303B"
+    android:padding="20dp"
+    tools:context=".MainActivity"
+    tools:deviceIds="wear"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/logintext"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:fontFamily="@font/roboto_medium"
+            android:text="Login"
+            android:layout_marginLeft="45dp"
+            android:textColor="@color/white"
+            android:textSize="16dp" />
+
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="140dp"
+            android:layout_height="35dp"
+            android:background="@drawable/rectangle_btn_grey2"
+            android:ems="10"
+            android:fontFamily="@font/roboto_medium"
+            android:hint="USERNAME"
+            android:inputType="textPersonName"
+            android:paddingHorizontal="5dp"
+            android:textColor="#2C303B"
+            android:textColorHint="#707070"
+            android:textSize="10dp" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="140dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/rectangle_btn_grey2"
+            android:ems="10"
+            android:fontFamily="@font/roboto_medium"
+            android:hint="PASSWORD"
+            android:inputType="textPassword"
+            android:paddingHorizontal="5dp"
+            android:textColor="#2C303B"
+            android:textColorHint="#707070"
+            android:textSize="10dp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="138dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/button_blue"
+        android:text="Login"
+        android:fontFamily="@font/roboto_medium"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:textSize="14dp" />
+
+
+
+</LinearLayout>
